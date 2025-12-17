@@ -30,7 +30,7 @@ class QAInference:
                     self.documents = [item["text"].replace("Agent:", "").strip() for item in data]
 
                 if self.documents:
-                    self.vectorizer = TfidfVectorizer(stop_words='english')
+                    self.vectorizer = TfidfVectorizer(analyzer='char_wb', ngram_range=(3, 5))
                     self.doc_vectors = self.vectorizer.fit_transform(self.documents)
                     print(f">>> SUCCESS: Loaded {len(self.documents)} clean facts into memory.")
                 else:
