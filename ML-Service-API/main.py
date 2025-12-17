@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 from service.ml_service import qa_service
 
 app = FastAPI(title="Axiomus QA API")
@@ -10,6 +11,7 @@ class QARequest(BaseModel):
 class QAResponse(BaseModel):
     answer: str
     score: float
+    context: Optional[str] = None
 
 @app.on_event("startup")
 def startup_event():
@@ -20,12 +22,10 @@ def predict_endpoint(request: QARequest):
     try:
         result = qa_service.predict(question=request.question)
 
-        if isinstance(result, dict) and "score" in result:
-            return QAResponse(answer=result['answer'], score=result['score'])
-
         return QAResponse(
             answer=result['answer'],
-            score=result['score']
+            score=result['score'],
+            context=result.get('context')
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

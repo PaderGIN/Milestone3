@@ -70,18 +70,23 @@ class QAInference:
         if not self.pipeline:
             self.load_model()
             if not self.pipeline:
-                return {"answer": "System Error: Model not loaded.", "score": 0.0}
+                return {"answer": "System Error: Model not loaded.", "score": 0.0, "context": None}
 
         context = self.retrieve_context(question)
         if not context:
-            return {"answer": "I don't have information about this in my UPM database.", "score": 0.0}
+            return {
+                "answer": "I don't have information about this in my UPM database.",
+                "score": 0.0,
+                "context": None
+            }
 
-        # Запускаем предсказание
         result = self.pipeline(
             question=question,
             context=context,
             handle_impossible_answer=False
         )
+
+        result['context'] = context
 
         return result
 
