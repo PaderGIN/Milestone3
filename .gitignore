@@ -1,0 +1,7 @@
+/ML-Service-API/DNN_Model/config.json
+/ML-Service-API/DNN_Model/model.safetensors
+/ML-Service-API/DNN_Model/special_tokens_map.json
+/ML-Service-API/DNN_Model/tokenizer.json
+/ML-Service-API/DNN_Model/tokenizer_config.json
+/ML-Service-API/DNN_Model/training_args.bin
+/ML-Service-API/DNN_Model/vocab.txt
