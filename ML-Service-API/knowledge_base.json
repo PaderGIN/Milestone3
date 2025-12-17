@@ -1,102 +1,402 @@
 [
-  {"id": "1", "text": "Agent: The Universidad Politécnica de Madrid (UPM) was founded in 1971."},
-  {"id": "2", "text": "Agent: UPM is the oldest and largest technical university in Spain."},
-  {"id": "3", "text": "Agent: UPM has four main campuses: Ciudad Universitaria, Montegancedo, South Vallecas, and Downtown Madrid."},
-  {"id": "4", "text": "Agent: The Montegancedo Campus is designated as an International Campus of Excellence."},
-  {"id": "5", "text": "Agent: UPM consists of 18 Schools and Faculties."},
-  {"id": "6", "text": "Agent: The Rectorate is located in the Ramiro de Maeztu building in Ciudad Universitaria."},
-  {"id": "7", "text": "Agent: UPM offers undergraduate, master, and PhD degrees in engineering and architecture."},
-  {"id": "8", "text": "Agent: The minimum passing grade is 5. The maximum grade is 10."},
-  {"id": "9", "text": "Agent: A grade of 10 with distinction is called Matricula de Honor."},
-  {"id": "10", "text": "Agent: The academic year is divided into two semesters: autumn and spring."},
-  {"id": "11", "text": "Agent: The autumn semester starts in September and ends in January."},
-  {"id": "12", "text": "Agent: The spring semester starts in February and ends in June."},
-  {"id": "13", "text": "Agent: Exams are typically held in January, June, and July."},
-  {"id": "14", "text": "Agent: A standard bachelor degree requires 240 ECTS credits."},
-  {"id": "15", "text": "Agent: A standard bachelor degree takes four years to complete."},
-  {"id": "16", "text": "Agent: A master degree usually requires between 60 and 120 ECTS credits."},
-  {"id": "17", "text": "Agent: Politécnica Virtual is the main online portal for students."},
-  {"id": "18", "text": "Agent: Students use Politécnica Virtual to check grades and enroll in courses."},
-  {"id": "19", "text": "Agent: Moodle is the e-learning platform used for course materials."},
-  {"id": "20", "text": "Agent: UPM provides an official email address to all students ending in @alumnos.upm.es."},
-  {"id": "21", "text": "Agent: Eduroam Wi-Fi is available across all UPM campuses."},
-  {"id": "22", "text": "Agent: VPN access allows students to connect to UPM services from home."},
-  {"id": "23", "text": "Agent: The ETSII (Industrial Engineering) is located on Paseo de la Castellana."},
-  {"id": "24", "text": "Agent: The ETSIT (Telecommunications) is located in Ciudad Universitaria."},
-  {"id": "25", "text": "Agent: The ETSIINF (Computer Engineering) is located at the Montegancedo Campus."},
-  {"id": "26", "text": "Agent: The ETSIAE (Aeronautical Engineering) is located in Ciudad Universitaria."},
-  {"id": "27", "text": "Agent: The ETSICCP (Civil Engineering) is located in Ciudad Universitaria."},
-  {"id": "28", "text": "Agent: The ETSAM (Architecture) is located in Ciudad Universitaria."},
-  {"id": "29", "text": "Agent: The ETSIST (Telecommunication Systems) is located at the South Campus (Vallecas)."},
-  {"id": "30", "text": "Agent: The ETSIDI (Industrial Design) is located in the Downtown Madrid campus."},
-  {"id": "31", "text": "Agent: UPM has the highest number of double degree agreements in Spain."},
-  {"id": "32", "text": "Agent: The Erasmus+ program allows studying in Europe for one or two semesters."},
-  {"id": "33", "text": "Agent: The Magalhães program connects UPM with Latin American universities."},
-  {"id": "34", "text": "Agent: The ATHENS program offers intensive one-week courses in Europe."},
-  {"id": "35", "text": "Agent: UPM is a member of the CESAER network of technical universities."},
-  {"id": "36", "text": "Agent: UPM has a strategic partnership with Tongji University in China."},
-  {"id": "37", "text": "Agent: The Language Center offers courses in English, German, French, and Chinese."},
-  {"id": "38", "text": "Agent: Official language certification exams like TOEIC are held at UPM."},
-  {"id": "39", "text": "Agent: English is the primary language for many master programs."},
-  {"id": "40", "text": "Agent: International students can take Spanish courses at the Language Center."},
-  {"id": "41", "text": "Agent: The UPM Library network has 16 library points across campuses."},
-  {"id": "42", "text": "Agent: Ingenio is the search engine for the UPM digital library."},
-  {"id": "43", "text": "Agent: Students can book study rooms through the library website."},
-  {"id": "44", "text": "Agent: The library offers laptop loans for students."},
-  {"id": "45", "text": "Agent: During exam periods, some libraries extend their opening hours."},
-  {"id": "46", "text": "Agent: UPM has sports facilities including gyms and tennis courts."},
-  {"id": "47", "text": "Agent: The South Campus has a large swimming pool."},
-  {"id": "48", "text": "Agent: Students can join UPM sports teams for inter-university competitions."},
-  {"id": "49", "text": "Agent: The Trofeo Rector is the internal sports league of UPM."},
-  {"id": "50", "text": "Agent: Actúaupm is the entrepreneurship program for startups."},
-  {"id": "51", "text": "Agent: UPM creates around 20 spin-off companies per year."},
-  {"id": "52", "text": "Agent: The Innovatech workshop helps researchers market their technologies."},
-  {"id": "53", "text": "Agent: UPM is a leader in patent applications among Spanish universities."},
-  {"id": "54", "text": "Agent: The Center for Biomedical Technology (CTB) is a major research hub."},
-  {"id": "55", "text": "Agent: The Center for Supercomputing (CESVIMA) houses the Magerit supercomputer."},
-  {"id": "56", "text": "Agent: The Solar Energy Institute (IES) is located at UPM."},
-  {"id": "57", "text": "Agent: UPM participates in the EELISA European University alliance."},
-  {"id": "58", "text": "Agent: Tuition fees are set by the Community of Madrid."},
-  {"id": "59", "text": "Agent: Scholarships are available from the Spanish Ministry of Education."},
-  {"id": "60", "text": "Agent: UPM offers its own scholarships for international mobility."},
-  {"id": "61", "text": "Agent: The Mentor Project connects senior students with freshmen."},
-  {"id": "62", "text": "Agent: Each School has a Student Delegation (Delegación de Alumnos)."},
-  {"id": "63", "text": "Agent: Cultural associations at UPM include theater, music, and cinema clubs."},
-  {"id": "64", "text": "Agent: The Tuna is a traditional musical group of university students."},
-  {"id": "65", "text": "Agent: UPM organizes an annual Employment Forum for job seekers."},
-  {"id": "66", "text": "Agent: The COIE provides career guidance and internship opportunities."},
-  {"id": "67", "text": "Agent: Internships can be curricular (for credit) or extracurricular."},
-  {"id": "68", "text": "Agent: Companies can post job offers on the UPM Job Bank."},
-  {"id": "69", "text": "Agent: The Final Degree Project (TFG) is mandatory for graduation."},
-  {"id": "70", "text": "Agent: The Master Thesis (TFM) must be defended publicly."},
-  {"id": "71", "text": "Agent: PhD programs usually take three to five years."},
-  {"id": "72", "text": "Agent: UPM has a Code of Ethics for the university community."},
-  {"id": "73", "text": "Agent: The Equality Unit promotes gender equality at UPM."},
-  {"id": "74", "text": "Agent: UPM is committed to the Sustainable Development Goals (SDGs)."},
-  {"id": "75", "text": "Agent: The Carbon Footprint project aims to reduce campus emissions."},
-  {"id": "76", "text": "Agent: UPM has a Psychological Attention Service for students."},
-  {"id": "77", "text": "Agent: The Disability Care Unit supports students with special needs."},
-  {"id": "78", "text": "Agent: The University Ombudsman defends the rights of students."},
-  {"id": "79", "text": "Agent: Public transport cards are discounted for students under 26."},
-  {"id": "80", "text": "Agent: The Metro station for Ciudad Universitaria is Line 6."},
-  {"id": "81", "text": "Agent: The Metro station for South Campus is Sierra de Guadalupe."},
-  {"id": "82", "text": "Agent: A shuttle bus connects Montegancedo with the city."},
-  {"id": "83", "text": "Agent: UPM alumni include several Nobel Prize laureates."},
-  {"id": "84", "text": "Agent: The School of Mines is located in a historic building in Rios Rosas."},
-  {"id": "85", "text": "Agent: The School of Forestry is located in Ciudad Universitaria."},
-  {"id": "86", "text": "Agent: UPM collaborates with Airbus and other aerospace companies."},
-  {"id": "87", "text": "Agent: The I&E (Innovation and Entrepreneurship) minor is popular."},
-  {"id": "88", "text": "Agent: Students can print documents at the reprography centers."},
-  {"id": "89", "text": "Agent: The UPM card is used for library loans and access control."},
-  {"id": "90", "text": "Agent: Enrollment changes can be requested during the modification period."},
-  {"id": "91", "text": "Agent: Part-time enrollment is allowed for working students."},
-  {"id": "92", "text": "Agent: Visiting professors from top universities teach at UPM."},
-  {"id": "93", "text": "Agent: UPM hosts the Summer School every July."},
-  {"id": "94", "text": "Agent: The FabLab is a digital fabrication laboratory for students."},
-  {"id": "95", "text": "Agent: Hackathons are frequently organized by student associations."},
-  {"id": "96", "text": "Agent: The BEST (Board of European Students of Technology) has a UPM branch."},
-  {"id": "97", "text": "Agent: UPM supports open access publishing for research."},
-  {"id": "98", "text": "Agent: The Gateway to Engineering program helps high school students."},
-  {"id": "99", "text": "Agent: UPM is consistently ranked as the top technical university in Spain."},
-  {"id": "100", "text": "Agent: The motto of UPM is Technica Impendi Nationi."}
+  {
+    "id": "1",
+    "text": "The Universidad Politécnica de Madrid (UPM) was officially founded in 1971. However, its origins date back much further, as it was formed by the integration of various Higher Technical Schools of Engineering and Architecture. These schools had existed independently since the 18th and 19th centuries before merging into the modern university."
+  },
+  {
+    "id": "2",
+    "text": "UPM is widely recognized as the oldest and largest technical university in Spain. It holds a prestigious reputation for engineering and architecture education. The university consistently ranks highly in national and international league tables for technical studies."
+  },
+  {
+    "id": "3",
+    "text": "The university is distributed across four main campuses in Madrid. These are the Ciudad Universitaria campus, the Montegancedo Campus, the South Campus located in Vallecas, and the Downtown Campus in the center of Madrid. This geographical distribution covers various strategic areas of the capital."
+  },
+  {
+    "id": "4",
+    "text": "The Montegancedo Campus has been designated as an International Campus of Excellence by the Spanish Ministry of Education. It is a hub for technological innovation and research. The campus hosts several research centers and the School of Computer Engineering."
+  },
+  {
+    "id": "5",
+    "text": "UPM consists of 18 distinct Schools and Faculties. These centers cover a broad spectrum of technical disciplines, including architecture, engineering, and sports sciences. Each school operates with a degree of autonomy while adhering to the university's general regulations."
+  },
+  {
+    "id": "6",
+    "text": "The Rectorate of the Universidad Politécnica de Madrid is the central administrative building. It is located in the Ramiro de Maeztu building within the Ciudad Universitaria campus. This building houses the offices of the Rector and the main governing bodies of the university."
+  },
+  {
+    "id": "7",
+    "text": "UPM offers a comprehensive range of academic degrees. Students can pursue undergraduate (Bachelor), Master, and PhD degrees. The primary focus of these programs is on various branches of engineering and architecture."
+  },
+  {
+    "id": "8",
+    "text": "The grading system at UPM follows the standard Spanish scale from 0 to 10. To pass a subject, a student must achieve a minimum grade of 5.0. A grade below 5 is considered a fail, while 10 represents the highest possible score."
+  },
+  {
+    "id": "9",
+    "text": "In the Spanish grading system, a grade of 10 with distinction is called 'Matricula de Honor'. This is a special recognition awarded to the top students in a class. Receiving this distinction often grants the student a tuition waiver for the equivalent number of credits in the following year."
+  },
+  {
+    "id": "10",
+    "text": "The academic year at UPM is structured into two distinct semesters. The first is known as the autumn semester, and the second is the spring semester. This structure allows for modular learning and assessment throughout the year."
+  },
+  {
+    "id": "11",
+    "text": "The autumn semester typically begins in early September. Classes continue throughout the fall and winter, concluding in January. Final exams for this semester are usually held immediately after classes end."
+  },
+  {
+    "id": "12",
+    "text": "The spring semester usually starts in early February. It runs through the spring months and concludes in June. This semester marks the second half of the academic year."
+  },
+  {
+    "id": "13",
+    "text": "Official exam periods are scheduled at specific times during the year. The main exam sessions are held in January for the autumn semester and in June for the spring semester. There is also an extraordinary exam session in July for retaking failed subjects."
+  },
+  {
+    "id": "14",
+    "text": "To obtain a standard bachelor degree at UPM, students are required to complete 240 ECTS credits. ECTS stands for European Credit Transfer and Accumulation System. These credits represent the workload required to achieve the learning outcomes of the program."
+  },
+  {
+    "id": "15",
+    "text": "A standard bachelor degree program at UPM is designed to take four years to complete. Each academic year corresponds to 60 ECTS credits. Students must pass all required courses and electives within this timeframe to graduate on schedule."
+  },
+  {
+    "id": "16",
+    "text": "Master degree programs at UPM vary in length and credit requirements. They usually require between 60 and 120 ECTS credits. Depending on the specific program, this translates to one or two years of full-time study."
+  },
+  {
+    "id": "17",
+    "text": "Politécnica Virtual is the main online portal for all UPM students and staff. It serves as a central hub for academic and administrative tasks. Access requires a university email account and password."
+  },
+  {
+    "id": "18",
+    "text": "Students use Politécnica Virtual for a variety of essential functions. Through this portal, they can check their grades, enroll in courses, and request academic certificates. It is the primary tool for managing student life."
+  },
+  {
+    "id": "19",
+    "text": "Moodle is the official e-learning platform used by UPM for course materials. Professors upload lecture notes, assignments, and announcements to Moodle. Students use it to submit homework and participate in forum discussions."
+  },
+  {
+    "id": "20",
+    "text": "Upon registration, UPM provides an official email address to all students. This email address ends in '@alumnos.upm.es'. It is mandatory for receiving official communications from the university and accessing Wi-Fi."
+  },
+  {
+    "id": "21",
+    "text": "Eduroam Wi-Fi is available across all UPM campuses and buildings. It provides secure, high-speed internet access for students, researchers, and staff. Users can also connect to Eduroam at other participating universities worldwide."
+  },
+  {
+    "id": "22",
+    "text": "UPM offers VPN (Virtual Private Network) access to its community. This service allows students and staff to connect to UPM's internal network services from home. It is essential for accessing library resources and software licenses remotely."
+  },
+  {
+    "id": "23",
+    "text": "The ETSII, or Escuela Técnica Superior de Ingenieros Industriales, is the School of Industrial Engineering. It is located in the city center on Paseo de la Castellana. It is one of the largest and most historic schools within UPM."
+  },
+  {
+    "id": "24",
+    "text": "The ETSIT, or Escuela Técnica Superior de Ingenieros de Telecomunicación, is the School of Telecommunications Engineering. It is located in the Ciudad Universitaria campus. The school is a leader in ICT research and education."
+  },
+  {
+    "id": "25",
+    "text": "The ETSIINF, or Escuela Técnica Superior de Ingenieros Informáticos, is the School of Computer Engineering. It is located at the Montegancedo Campus. The school offers degrees in computer science, software engineering, and data science."
+  },
+  {
+    "id": "26",
+    "text": "The ETSIAE, or Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio, is the School of Aeronautical and Space Engineering. It is located in the Ciudad Universitaria campus. It is the oldest center for aerospace engineering education in Spain."
+  },
+  {
+    "id": "27",
+    "text": "The ETSICCP, or Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos, is the School of Civil Engineering. It is located in the Ciudad Universitaria campus. The school trains engineers in infrastructure, transport, and hydrology."
+  },
+  {
+    "id": "28",
+    "text": "The ETSAM, or Escuela Técnica Superior de Arquitectura de Madrid, is the School of Architecture. It is located in the Ciudad Universitaria campus. It is widely considered one of the best architecture schools in the world."
+  },
+  {
+    "id": "29",
+    "text": "The ETSIST, or Escuela Técnica Superior de Ingeniería de Sistemas de Telecomunicación, is located at the South Campus in Vallecas. It specializes in telecommunication systems and electronics engineering."
+  },
+  {
+    "id": "30",
+    "text": "The ETSIDI, or Escuela Técnica Superior de Ingeniería y Diseño Industrial, is the School of Industrial Design and Engineering. It is located in the Downtown Madrid campus near Atocha. It focuses on industrial design and mechanical engineering."
+  },
+  {
+    "id": "31",
+    "text": "UPM holds the distinction of being the Spanish university with the highest number of double degree agreements. These agreements allow students to study at international partner universities and obtain degrees from both institutions."
+  },
+  {
+    "id": "32",
+    "text": "The Erasmus+ program is very popular at UPM. It allows students to study in other European countries for one or two semesters. Credits earned abroad are recognized and transferred back to their UPM degree."
+  },
+  {
+    "id": "33",
+    "text": "The Magalhães program is an exchange program that connects UPM with leading Latin American universities. It facilitates student mobility between Spain and countries in South and Central America for engineering and architecture studies."
+  },
+  {
+    "id": "34",
+    "text": "The ATHENS program offers intensive one-week courses at partner European universities. UPM students can travel to other countries to take specialized technical courses. These sessions usually take place in November and March."
+  },
+  {
+    "id": "35",
+    "text": "UPM is a proud member of the CESAER network. CESAER stands for Conference of European Schools for Advanced Engineering Education and Research. It is an association of leading universities of science and technology in Europe."
+  },
+  {
+    "id": "36",
+    "text": "UPM has established a strategic partnership with Tongji University in China. This collaboration includes the Sino-Spanish Campus in Shanghai. It promotes student and staff exchange as well as joint research projects."
+  },
+  {
+    "id": "37",
+    "text": "The UPM Language Center offers a variety of language courses. Students can enroll in classes for English, German, French, Chinese, and other languages. These courses help students prepare for international mobility and certification exams."
+  },
+  {
+    "id": "38",
+    "text": "Official language certification exams are held at UPM. Students can take exams like TOEIC or Cambridge English at the university. Obtaining these certifications is often a requirement for graduation or studying abroad."
+  },
+  {
+    "id": "39",
+    "text": "English is the primary language of instruction for many master programs at UPM. This attracts a large number of international students. Even in undergraduate programs, some courses are offered in English."
+  },
+  {
+    "id": "40",
+    "text": "International students can take Spanish courses at the Language Center. These courses are designed to help foreign students improve their Spanish skills for academic and daily life purposes. Levels range from beginner to advanced."
+  },
+  {
+    "id": "41",
+    "text": "The UPM Library network is extensive, with 16 library points distributed across the various campuses. These libraries provide study spaces, computer access, and a vast collection of academic resources."
+  },
+  {
+    "id": "42",
+    "text": "Ingenio is the online search engine for the UPM digital library. It allows students and researchers to find physical books, e-books, scientific journals, and databases. Access to digital content is available both on-campus and remotely."
+  },
+  {
+    "id": "43",
+    "text": "Students can book group study rooms through the library website. These rooms are equipped with whiteboards and screens for collaborative work. Booking in advance is recommended, especially during exam periods."
+  },
+  {
+    "id": "44",
+    "text": "The library offers a laptop loan service for students. Students can borrow a laptop for a few hours to work within the library premises. This is useful for students who do not have their own device on campus."
+  },
+  {
+    "id": "45",
+    "text": "During exam periods, some UPM libraries extend their opening hours. They may remain open on weekends and until late at night to accommodate students preparing for finals. This schedule is usually announced a few weeks before exams begin."
+  },
+  {
+    "id": "46",
+    "text": "UPM has various sports facilities for the university community. These include gyms, tennis courts, and sports halls. They are primarily located at the South and Montegancedo campuses."
+  },
+  {
+    "id": "47",
+    "text": "The South Campus (Vallecas) features a large indoor swimming pool. It is open to students and staff for a small fee. Swimming courses and free swim sessions are available throughout the year."
+  },
+  {
+    "id": "48",
+    "text": "Students can join official UPM sports teams. These teams represent the university in inter-university competitions across Spain. Sports include football, basketball, rugby, and volleyball."
+  },
+  {
+    "id": "49",
+    "text": "The Trofeo Rector is the internal sports league of UPM. It allows students from different schools to compete against each other in various sports. It is a popular event that fosters school spirit."
+  },
+  {
+    "id": "50",
+    "text": "Actúaupm is the university's flagship entrepreneurship program. It supports the creation of technology-based startups by students and researchers. The program provides training, mentoring, and funding opportunities."
+  },
+  {
+    "id": "51",
+    "text": "UPM is highly active in innovation, creating around 20 spin-off companies per year. These companies are often founded by research groups to commercialize their scientific discoveries. This contributes significantly to the local economy."
+  },
+  {
+    "id": "52",
+    "text": "The Innovatech workshop is an initiative that helps researchers market their technologies. It connects the university's scientific output with the business sector. The goal is to transfer knowledge from the lab to the industry."
+  },
+  {
+    "id": "53",
+    "text": "UPM is a leader in patent applications among Spanish universities. The university actively protects the intellectual property generated by its research groups. Many of these patents are licensed to companies for commercial use."
+  },
+  {
+    "id": "54",
+    "text": "The Center for Biomedical Technology (CTB) is a major research hub at UPM. It brings together engineers and neuroscientists to develop technology for healthcare. It is located at the Montegancedo Campus."
+  },
+  {
+    "id": "55",
+    "text": "The Center for Supercomputing and Visualization (CESVIMA) houses the Magerit supercomputer. This facility provides high-performance computing resources for complex scientific simulations. It is part of the Spanish Supercomputing Network."
+  },
+  {
+    "id": "56",
+    "text": "The Solar Energy Institute (IES) is a research center located at UPM. It specializes in photovoltaic solar energy research and development. The institute is internationally recognized for its contributions to renewable energy."
+  },
+  {
+    "id": "57",
+    "text": "UPM participates in the EELISA European University alliance. EELISA stands for European Engineering Learning Innovation and Science Alliance. It aims to define a common European engineer profile."
+  },
+  {
+    "id": "58",
+    "text": "Tuition fees for UPM, like all public universities in Madrid, are set by the Community of Madrid government. Fees are calculated per ECTS credit. The cost is generally lower for EU citizens compared to non-EU students."
+  },
+  {
+    "id": "59",
+    "text": "Scholarships are available from the Spanish Ministry of Education (MEC). These scholarships can cover tuition fees and provide a living allowance. They are awarded based on economic need and academic performance."
+  },
+  {
+    "id": "60",
+    "text": "UPM offers its own scholarships specifically for international mobility. These grants help cover travel and living expenses for students going on exchange programs. They are often supplementary to Erasmus grants."
+  },
+  {
+    "id": "61",
+    "text": "The Mentor Project connects senior students with incoming freshmen. Mentors help new students adapt to university life, navigate the campus, and understand academic procedures. It is a voluntary program."
+  },
+  {
+    "id": "62",
+    "text": "Each School at UPM has a Student Delegation (Delegación de Alumnos). This body represents the students' interests in university meetings. They also organize social and cultural activities for the student body."
+  },
+  {
+    "id": "63",
+    "text": "Cultural associations at UPM are very active. They include theater groups, music bands, cinema clubs, and photography societies. Joining these associations is a great way to meet people with similar interests."
+  },
+  {
+    "id": "64",
+    "text": "The Tuna is a traditional musical group of university students in Spain. UPM has several Tunas representing different schools. They wear traditional costumes and play folk songs at events and celebrations."
+  },
+  {
+    "id": "65",
+    "text": "UPM organizes an annual Employment Forum for job seekers. This event brings together top companies and students looking for internships or jobs. It is an excellent opportunity for networking."
+  },
+  {
+    "id": "66",
+    "text": "The COIE (Center for Guidance and Information on Employment) provides career guidance. They manage internship agreements and help students prepare CVs and interviews. They are the main link between students and the labor market."
+  },
+  {
+    "id": "67",
+    "text": "Internships at UPM can be curricular or extracurricular. Curricular internships award academic credits and are part of the study plan. Extracurricular internships are voluntary and provide additional work experience."
+  },
+  {
+    "id": "68",
+    "text": "Companies can post job offers on the UPM Job Bank. Students and alumni can access this platform to apply for positions. It is a dedicated service for the UPM community."
+  },
+  {
+    "id": "69",
+    "text": "The Final Degree Project (TFG) is mandatory for graduation in all bachelor programs. It is an individual project that demonstrates the skills acquired during the degree. It must be defended publicly before a panel."
+  },
+  {
+    "id": "70",
+    "text": "The Master Thesis (TFM) is the final requirement for master degrees. It involves advanced research or a complex engineering project. Like the TFG, it must be defended publicly."
+  },
+  {
+    "id": "71",
+    "text": "PhD programs at UPM usually take three to five years to complete. Candidates must conduct original research and write a doctoral thesis. The program concludes with the defense of the thesis."
+  },
+  {
+    "id": "72",
+    "text": "UPM has a Code of Ethics that guides the behavior of the university community. It promotes values such as integrity, equality, and academic freedom. All members are expected to adhere to these principles."
+  },
+  {
+    "id": "73",
+    "text": "The Equality Unit promotes gender equality at UPM. It implements policies to prevent discrimination and harassment. The unit also organizes awareness campaigns and training sessions."
+  },
+  {
+    "id": "74",
+    "text": "UPM is firmly committed to the Sustainable Development Goals (SDGs). The university integrates sustainability into its teaching, research, and operations. Many projects focus on renewable energy and environmental protection."
+  },
+  {
+    "id": "75",
+    "text": "The Carbon Footprint project aims to measure and reduce campus emissions. UPM calculates its environmental impact annually. The goal is to make the university campuses carbon neutral in the near future."
+  },
+  {
+    "id": "76",
+    "text": "UPM has a Psychological Attention Service for students. This service provides professional counseling to help students deal with stress, anxiety, and other mental health issues. It is confidential and free or low-cost."
+  },
+  {
+    "id": "77",
+    "text": "The Disability Care Unit supports students with special needs. They ensure that campuses are accessible and provide academic accommodations. This includes adapted exams and assistive technology."
+  },
+  {
+    "id": "78",
+    "text": "The University Ombudsman defends the rights of students, staff, and professors. They act as a mediator in conflicts and ensure that university regulations are followed fairly. Anyone in the community can file a complaint."
+  },
+  {
+    "id": "79",
+    "text": "Public transport cards in Madrid are discounted for students under 26. The 'Abono Joven' allows unlimited travel on metro, bus, and trains for a fixed monthly fee. This is very useful for commuting to UPM campuses."
+  },
+  {
+    "id": "80",
+    "text": "The main Metro station for the Ciudad Universitaria campus is 'Ciudad Universitaria' on Line 6. This station is located right in the middle of the campus. It is the most convenient way to reach schools like ETSIT and ETSIAE."
+  },
+  {
+    "id": "81",
+    "text": "The Metro station for the South Campus is 'Sierra de Guadalupe' on Line 1. There is also a Cercanías train station nearby called 'Vallecas'. This makes the campus accessible from different parts of Madrid."
+  },
+  {
+    "id": "82",
+    "text": "A shuttle bus connects the Montegancedo campus with the city. Alternatively, students can take the Light Rail (Metro Ligero) line ML3 to the 'Montepríncipe' station. The campus is located in a green area outside the city center."
+  },
+  {
+    "id": "83",
+    "text": "UPM alumni include several notable figures and Nobel Prize laureates. For example, José Echegaray, a Nobel Prize winner in Literature, was an engineer and professor at the university. This highlights the diverse talents of UPM graduates."
+  },
+  {
+    "id": "84",
+    "text": "The School of Mines (ETSIME) is located in a historic building on Calle Rios Rosas. The building itself is an architectural landmark and houses a mining museum. It is one of the oldest schools in Spain."
+  },
+  {
+    "id": "85",
+    "text": "The School of Forestry (ETSIMFMN) is located in the Ciudad Universitaria campus. It is surrounded by green areas and experimental fields. The school focuses on environmental engineering and natural resource management."
+  },
+  {
+    "id": "86",
+    "text": "UPM collaborates closely with Airbus and other major aerospace companies. This partnership provides students with internship opportunities and exposure to real-world projects. Many graduates find employment in the aerospace sector."
+  },
+  {
+    "id": "87",
+    "text": "The I&E (Innovation and Entrepreneurship) minor is a popular program. It allows engineering students to gain business and management skills. This minor is often part of the EIT Digital master programs."
+  },
+  {
+    "id": "88",
+    "text": "Students can print and photocopy documents at the reprography centers found in every school. These centers offer low-cost printing services. Students can also use self-service machines."
+  },
+  {
+    "id": "89",
+    "text": "The UPM card is a smart card used for library loans and access control. It also serves as a student ID for discounts. The card can be integrated with the Santander bank account for university payments."
+  },
+  {
+    "id": "90",
+    "text": "Enrollment changes can be requested during the modification period. This usually happens a few weeks after the semester starts. Students can add or drop courses if their schedule changes."
+  },
+  {
+    "id": "91",
+    "text": "Part-time enrollment is allowed for working students. This option allows students to take fewer credits per year. It is designed to help students balance their studies with employment."
+  },
+  {
+    "id": "92",
+    "text": "Visiting professors from top international universities frequently teach at UPM. They bring global perspectives and expertise to the classrooms. This is part of the university's internationalization strategy."
+  },
+  {
+    "id": "93",
+    "text": "UPM hosts an International Summer School every July. It offers short courses on cutting-edge technology and Spanish culture. It attracts students from all over the world."
+  },
+  {
+    "id": "94",
+    "text": "The FabLab is a digital fabrication laboratory available to students. It is equipped with 3D printers, laser cutters, and CNC machines. Students can use it to prototype their projects and inventions."
+  },
+  {
+    "id": "95",
+    "text": "Hackathons are frequently organized by student associations and companies at UPM. These events challenge students to solve problems in a limited time. They are great for testing coding skills and teamwork."
+  },
+  {
+    "id": "96",
+    "text": "The BEST (Board of European Students of Technology) has an active UPM branch. They organize courses, competitions, and travel opportunities. It is a student-run organization focused on technology and cultural exchange."
+  },
+  {
+    "id": "97",
+    "text": "UPM supports open access publishing for research. The university encourages researchers to make their findings publicly available. The 'Archivo Digital UPM' is the institutional repository for open access papers."
+  },
+  {
+    "id": "98",
+    "text": "The 'Gateway to Engineering' program helps high school students transition to university. It offers preparatory courses in math and physics. This helps reduce the dropout rate in the first year."
+  },
+  {
+    "id": "99",
+    "text": "UPM is consistently ranked as the top technical university in Spain. It appears in major rankings like QS and Shanghai. It is particularly strong in civil engineering, architecture, and mechanical engineering."
+  },
+  {
+    "id": "100",
+    "text": "The motto of UPM is 'Technica Impendi Nationi'. This Latin phrase translates to 'Technology for the Service of the Nation'. It reflects the university's commitment to contributing to society through engineering."
+  }
 ]
