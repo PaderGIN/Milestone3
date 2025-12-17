@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  ml_service:
+    build: ./ML-Service-API
+    container_name: axiomus_ml
+    ports:
+      - "8000:8000"
+    restart: always
+
+  telegram_bot:
+    build: ./Telegram-Bot-UI
+    container_name: axiomus_bot
+    environment:
+      - TELEGRAM_TOKEN=${REPLACE_ME}
+      - ML_API_URL=http://ml_service:8000/predict
+    depends_on:
+      - ml_service
+    restart: always
