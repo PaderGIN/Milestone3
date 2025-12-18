@@ -5,31 +5,6 @@
 
 ---
 
-## 📋 Features
-
-*   **🧠 SQuAD-Optimized Core:** Utilizing a custom fine-tuned `distilbert-base-uncased` model trained on SQuAD v1.1 for superior extractive QA performance.
-*   **📚 Dynamic Knowledge Base:** A curated repository of **250+ verified facts** covering UPM campuses, degrees, history, and student life.
-*   **🔍 RAG Architecture:** Vector-based retrieval (TF-IDF/Cosine Similarity) to ground answers in reality and eliminate hallucinations.
-*   **🐳 Microservices:** Fully dockerized architecture separating the Inference Engine (FastAPI) and the User Interface (Telegram Bot).
-
----
-
-## 🛠️ Project Structure
-
-Milestone3/
-├── docker-compose.yml          # Orchestration service
-├── ML-Service-API/             # Backend (Inference Engine)
-│   ├── DNN_Model/              # ⚠️ PLACE MODEL FILES HERE
-│   ├── knowledge_base.json     # 250+ Facts Database
-│   ├── main.py                 # FastAPI Endpoints
-│   ├── service/                # Business Logic
-│   └── Dockerfile
-└── Telegram-Bot-UI/            # Frontend (Telegram Interface)
-├── bot.py                  # Aiogram Bot Logic
-└── Dockerfile
-
----
-
 ## 🚀 How to Run (Cross-Platform)
 
 ### 1. Prerequisites
@@ -49,7 +24,7 @@ cd Milestone3
 
 Due to GitHub file size limits, the fine-tuned model weights (**250MB+**) are not included in the repo.
 
-1.  **Download** your fine-tuned model files (from Google Drive/Colab).
+1.  **Download** your fine-tuned model files (https://drive.google.com/drive/folders/1sz-7Lw-E4SOu1dtgTUxNjvAQ-KejpsrZ?usp=sharing - our model. pls paste unarchived DNN_model package and past in the project in the same named package.).
 2.  **Extract** them into: `ML-Service-API/DNN_Model/`
 3.  Ensure the folder contains: `config.json`, `model.safetensors`, `tokenizer.json`, etc.
 
